@@ -24,12 +24,13 @@ namespace mapa_de_sala
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ola Mundo");
+           
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            MessageBox.Show("hello word");
+            string Nome = txtnum1.Text;
+            MessageBox.Show(Nome);
         }
 
         private void principal_Load(object sender, EventArgs e)
@@ -39,8 +40,23 @@ namespace mapa_de_sala
 
         private void btmconfirmar_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("entrei no botao");
+            
+
 
         }
+
+        private void txtefeito_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+                    }
     }
 }

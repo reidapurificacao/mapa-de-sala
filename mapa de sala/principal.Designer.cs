@@ -50,6 +50,13 @@ namespace mapa_de_sala
             this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.compartilharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.txtnum1 = new System.Windows.Forms.TextBox();
+            this.txtnum2 = new System.Windows.Forms.TextBox();
+            this.btm2 = new System.Windows.Forms.Button();
+            this.btm3 = new System.Windows.Forms.Button();
+            this.btm4 = new System.Windows.Forms.Button();
+            this.btm5 = new System.Windows.Forms.Button();
+            this.btmsolucao = new System.Windows.Forms.Button();
             this.menuStrip3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
@@ -134,7 +141,6 @@ namespace mapa_de_sala
             this.btmconfirmar.Text = "button1";
             this.btmconfirmar.UseVisualStyleBackColor = false;
             this.btmconfirmar.Click += new System.EventHandler(this.button1_Click_1);
-            this.btmconfirmar.MouseEnter += new System.EventHandler(this.btmconfirmar_MouseEnter);
             // 
             // todosOsProfessoresToolStripMenuItem
             // 
@@ -220,12 +226,81 @@ namespace mapa_de_sala
             this.menuStrip2.TabIndex = 6;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // txtnum1
+            // 
+            this.txtnum1.Location = new System.Drawing.Point(454, 117);
+            this.txtnum1.Name = "txtnum1";
+            this.txtnum1.Size = new System.Drawing.Size(213, 20);
+            this.txtnum1.TabIndex = 9;
+            this.txtnum1.TextChanged += new System.EventHandler(this.txtefeito_TextChanged);
+            // 
+            // txtnum2
+            // 
+            this.txtnum2.Location = new System.Drawing.Point(454, 143);
+            this.txtnum2.Name = "txtnum2";
+            this.txtnum2.Size = new System.Drawing.Size(213, 20);
+            this.txtnum2.TabIndex = 10;
+            this.txtnum2.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // btm2
+            // 
+            this.btm2.Location = new System.Drawing.Point(454, 172);
+            this.btm2.Name = "btm2";
+            this.btm2.Size = new System.Drawing.Size(75, 34);
+            this.btm2.TabIndex = 11;
+            this.btm2.Text = "subtraçao";
+            this.btm2.UseVisualStyleBackColor = true;
+            this.btm2.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // btm3
+            // 
+            this.btm3.Location = new System.Drawing.Point(454, 212);
+            this.btm3.Name = "btm3";
+            this.btm3.Size = new System.Drawing.Size(75, 23);
+            this.btm3.TabIndex = 12;
+            this.btm3.Text = "divicao";
+            this.btm3.UseVisualStyleBackColor = true;
+            // 
+            // btm4
+            // 
+            this.btm4.Location = new System.Drawing.Point(454, 241);
+            this.btm4.Name = "btm4";
+            this.btm4.Size = new System.Drawing.Size(75, 23);
+            this.btm4.TabIndex = 13;
+            this.btm4.Text = "subtracao";
+            this.btm4.UseVisualStyleBackColor = true;
+            // 
+            // btm5
+            // 
+            this.btm5.Location = new System.Drawing.Point(454, 274);
+            this.btm5.Name = "btm5";
+            this.btm5.Size = new System.Drawing.Size(75, 28);
+            this.btm5.TabIndex = 14;
+            this.btm5.Text = "adicao";
+            this.btm5.UseVisualStyleBackColor = true;
+            // 
+            // btmsolucao
+            // 
+            this.btmsolucao.Location = new System.Drawing.Point(613, 322);
+            this.btmsolucao.Name = "btmsolucao";
+            this.btmsolucao.Size = new System.Drawing.Size(175, 73);
+            this.btmsolucao.TabIndex = 15;
+            this.btmsolucao.Text = "comfirmar";
+            this.btmsolucao.UseVisualStyleBackColor = true;
+            // 
             // principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::mapa_de_sala.Properties.Resources.Leitede_robalo;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btmsolucao);
+            this.Controls.Add(this.btm5);
+            this.Controls.Add(this.btm4);
+            this.Controls.Add(this.btm3);
+            this.Controls.Add(this.btm2);
+            this.Controls.Add(this.txtnum2);
+            this.Controls.Add(this.txtnum1);
             this.Controls.Add(this.btmconfirmar);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -272,5 +347,12 @@ namespace mapa_de_sala
         private System.Windows.Forms.ToolStripMenuItem imprimirToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem compartilharToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.TextBox txtnum1;
+        private System.Windows.Forms.TextBox txtnum2;
+        private System.Windows.Forms.Button btm2;
+        private System.Windows.Forms.Button btm3;
+        private System.Windows.Forms.Button btm4;
+        private System.Windows.Forms.Button btm5;
+        private System.Windows.Forms.Button btmsolucao;
     }
 }
