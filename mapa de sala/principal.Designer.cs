@@ -248,7 +248,7 @@ namespace mapa_de_sala
             this.btm2.Name = "btm2";
             this.btm2.Size = new System.Drawing.Size(75, 34);
             this.btm2.TabIndex = 11;
-            this.btm2.Text = "subtraçao";
+            this.btm2.Text = "multiplicacao";
             this.btm2.UseVisualStyleBackColor = true;
             this.btm2.Click += new System.EventHandler(this.button1_Click_2);
             // 
@@ -260,6 +260,7 @@ namespace mapa_de_sala
             this.btm3.TabIndex = 12;
             this.btm3.Text = "divicao";
             this.btm3.UseVisualStyleBackColor = true;
+            this.btm3.Click += new System.EventHandler(this.btm3_Click);
             // 
             // btm4
             // 
@@ -269,6 +270,7 @@ namespace mapa_de_sala
             this.btm4.TabIndex = 13;
             this.btm4.Text = "subtracao";
             this.btm4.UseVisualStyleBackColor = true;
+            this.btm4.Click += new System.EventHandler(this.btm4_Click);
             // 
             // btm5
             // 
@@ -278,6 +280,7 @@ namespace mapa_de_sala
             this.btm5.TabIndex = 14;
             this.btm5.Text = "adicao";
             this.btm5.UseVisualStyleBackColor = true;
+            this.btm5.Click += new System.EventHandler(this.btm5_Click);
             // 
             // btmsolucao
             // 

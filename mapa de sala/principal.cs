@@ -57,6 +57,34 @@ namespace mapa_de_sala
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-                    }
+            int numero1 = Convert.ToInt32(txtnum1.Text);
+            int numero2 = Convert.ToInt32(txtnum2.Text);
+            int mult = numero1 * numero2;
+            MessageBox.Show(mult.ToString());
+        }
+
+        private void btm5_Click(object sender, EventArgs e)
+        {
+            int numero1 = Convert.ToInt32(txtnum1.Text);
+            int numero2 = Convert.ToInt32(txtnum2.Text);
+            int soma = numero1 + numero2;
+            MessageBox.Show( soma.ToString());
+        }
+
+        private void btm4_Click(object sender, EventArgs e)
+        {
+            int numero1 = Convert.ToInt32(txtnum1.Text);
+            int numero2 = Convert.ToInt32(txtnum2.Text);
+            int sub = numero1 - numero2;
+            MessageBox.Show(sub.ToString());
+        }
+
+        private void btm3_Click(object sender, EventArgs e)
+        {
+            int numero1 = Convert.ToInt32(txtnum1.Text);
+            int numero2 = Convert.ToInt32(txtnum2.Text);
+            int div = numero1 / numero2;
+            MessageBox.Show(div.ToString());
+        }
     }
 }
